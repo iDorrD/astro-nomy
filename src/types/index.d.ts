@@ -33,9 +33,11 @@ export type SiteConfig = {
   description: string;
   url: string;
   ogImage: string;
+  copyright: int;
   links: {
     twitter: string;
     github: string;
+    store: string;
   };
 };
 

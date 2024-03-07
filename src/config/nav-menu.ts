@@ -6,63 +6,39 @@ export const navMenuConfig: NavMenuConfig = {
       title: "Menu",
       items: [
         {
-          title: "Features",
-          href: "/#features",
-          description: "Take a closer look at the project's features.",
+          title: "Store",
+          href: "https://store.meinscord.com",
+          description: "Get your hands on the latest products available on the market.",
         },
         {
-          title: "Twitter (@miickasmt)",
-          href: "https://twitter.com/miickasmt",
+          title: "Blog",
+          href: "/blog",
           description: "Follow me to get the latest updates and news.",
-          external: true,
-        },
-        {
-          title: "Source Code",
-          href: "https://github.com/mickasmt/astro-nomy",
-          description: "You want to star the repository ? Let's get started!",
-          external: true,
+          external: false,
         },
       ],
     },
   ],
   examplesNav: [
     {
-      title: "Examples",
+      title: "Socials",
       items: [
         {
-          title: "Blog",
-          href: "/blog",
-          description: "A Markdown/MDX blog built using Content Collections.",
+          title: "Twitter (X)",
+          href: "https://twitter.com/meinscord",
+          description: "Get our latest publications in your social network.",
+          disabled: false,
         },
         {
-          title: "Docs",
-          href: "/docs/getting-started",
-          description:
-            "A Markdown/MDX documentation site built using Content Collections.",
+          title: "YouTube",
+          href: "https://youtube.com/@meinscord",
+          description: "Check out our latest videos released on the YouTube platform.",
+          disabled: false,
         },
         {
-          title: "Authentification",
-          href: "/login",
-          description: "Login and register pages for authentification.",
-          disabled: true,
-        },
-        {
-          title: "Dashboard",
-          href: "/#dashboard",
-          description: "A dashboard panel after authentification.",
-          disabled: true,
-        },
-        {
-          title: "Ecommerce",
-          href: "/#examples/ecommerce",
-          description:
-            "Different pages of an ecommerce app fetching data from an API.",
-          disabled: true,
-        },
-        {
-          title: "Social Media",
-          href: "/#examples/social-media",
-          description: "Different components & pages of an social media app.",
+          title: "Discord",
+          href: "https://discord.com/meinscord",
+          description: "Join our official Discord community, to share ideas and chat.",
           disabled: true,
         },
       ],
@@ -70,12 +46,13 @@ export const navMenuConfig: NavMenuConfig = {
   ],
   links: [
     {
-      title: "FAQ",
-      href: "/faq",
+      title: "Blog",
+      href: "/blog",
     },
     {
-      title: "About",
-      href: "/about",
+      title: "Store",
+      href: "https://store.meinscord.com",
+      external: true,
     },
   ],
 };

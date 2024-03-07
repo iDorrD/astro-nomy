@@ -13,6 +13,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { navMenuConfig } from "@/config/nav-menu";
 import type { MenuItem } from "@/types";
+import { siteConfig } from "@/config/site";
 
 const infos = navMenuConfig.infosNav[0];
 const examples = navMenuConfig.examplesNav[0];
@@ -30,11 +31,10 @@ export function MainNavigationMenu() {
                   className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                   href="/"
                 >
-                  <Icons.logo className="size-8" />
-                  <div className="mb-2 mt-3 text-lg font-medium">Astronomy</div>
+                  <Icons.logo className="logo" />
+                  <div className="mb-2 mt-3 text-lg font-medium">MeinsCord</div>
                   <p className="text-sm leading-tight text-muted-foreground">
-                    Modern application with differents sections examples built
-                    using shadcn/ui.
+                    {siteConfig.description}
                   </p>
                 </a>
               </li>
@@ -58,11 +58,11 @@ export function MainNavigationMenu() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          {navMenuConfig.links.map((link) => (
+          {/* {navMenuConfig.links.map((link) => (
             <a key={link.href} href={link.href} className={navigationMenuTriggerStyle()}>
               {link.title}
             </a>
-          ))}
+          ))} */}
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
