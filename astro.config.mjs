@@ -20,6 +20,8 @@ export default defineConfig({
   }), icon(), sitemap(), react(), tailwind({
     applyBaseStyles: false
   })],
-  adapter: vercel(),
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
   output: "server"
 });
