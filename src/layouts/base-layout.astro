@@ -2,7 +2,7 @@
 import BaseHead from "@/components/layout/base-head.astro";
 import TailwindIndicator from "@/components/tailwind-indicator.astro";
 import { cn } from "@/lib/utils";
-
+import SpeedInsights from '@vercel/speed-insights/astro';
 type Props = {
   title: string;
   description?: string;
@@ -11,7 +11,7 @@ type Props = {
 
 const { title, description, bodyClass } = Astro.props;
 ---
-
+<SpeedInsights />
 <!doctype html>
 <html lang="en">
   <head>
