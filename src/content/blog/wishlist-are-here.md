@@ -13,8 +13,12 @@ We just addded the first version of Wishlist to the MeinsCord!
 When you're logged in to your MeinsCord account visit any project's product page on the MeinsCord Store or MeinsCord Marketplace on the web.
 Click on the "Hearth" icon, in the bottom position.
 
+<img src="https://i.imgur.com/OtXsjqr.png">
+
 ***What can I do with wishlists?***
 You can track the products you're interested in for future purchase or discounts, all on one handy page!
+
+<img src="https://i.imgur.com/MoDLMei.png">
 
 To start, we'll be adding filtering and smart searching of items you've added to your wishlist. In future iterations, we plan to add email notifications when your wishlisted titles are discounted, or change status (such as a launch, or becoming available for pre-purchase). 
 
