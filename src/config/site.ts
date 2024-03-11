@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   description:
     "Discover the latest news and updates and plenty more about MeinsCord, all in one place.",
   url: "https://blog.meinscord.com",
-  ogImage: "https://astro-nomy.vercel.app/og.jpg",
+  ogImage: "https://i.imgur.com/07jBS4K.png",
   copyright: new Date().getFullYear(),
   links: {
     twitter: "https://twitter.com/meinscord",
