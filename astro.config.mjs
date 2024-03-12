@@ -10,6 +10,9 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   site: "https://blog.meinscord.com",
+  experimental:{
+    directRenderScript: true
+  },
   integrations: [mdx({
     syntaxHighlight: "shiki",
     shikiConfig: {
